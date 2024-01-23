@@ -1,0 +1,16 @@
+# Ignore specific files
+./delKeyTest.py
+./ImportAllTest.py
+./testapi.py
+./.replit
+./replit.nix
+./poetry.lock
+./pyproject.toml
+./timeTest.py
+
+# Ignore directories
+__pycache__/
+.cache/
+
+# Ignore all __pycache__ folders in nested directories
+**/__pycache__/
